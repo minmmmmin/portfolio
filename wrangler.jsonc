@@ -7,5 +7,10 @@
     "directory": "./dist",
     // /works などへの直接アクセスでも index.html を返す（React Router に任せる）
     "not_found_handling": "single-page-application"
-  }
+  },
+  // 独自ドメイン（Cloudflare Registrar で取得）
+  "routes": [{ "pattern": "minmmmin.dev", "custom_domain": true }],
+  // 公開は minmmmin.dev だけにする。PR などのプレビュー URL は残す
+  "workers_dev": false,
+  "preview_urls": true
 }
