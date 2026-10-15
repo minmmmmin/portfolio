@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "min-portfolio",
+  "compatibility_date": "2026-10-01",
+  // サーバー処理なし。Vite のビルド結果をそのまま配信する
+  "assets": {
+    "directory": "./dist",
+    // /works などへの直接アクセスでも index.html を返す（React Router に任せる）
+    "not_found_handling": "single-page-application"
+  }
+}
