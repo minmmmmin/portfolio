@@ -133,6 +133,9 @@ D1 や CMS に移すときはこのファイルの中身を差し替えます。
 
 `wrangler.jsonc` で `dist/` を静的アセットとして配信し、`not_found_handling: "single-page-application"` で `/works` などへの直接アクセスでも `index.html` を返します。サーバー処理はありません。
 
+公開先は **https://minmmmin.dev**（Cloudflare Registrar で取得、`wrangler.jsonc` の `routes` でカスタムドメインに設定）。
+`workers.dev` の URL は無効にしていて、プレビュー URL だけ有効です。ドメインを変えるときは `.env` の `VITE_SITE_URL` も変えます。
+
 ### GitHub 連携で自動デプロイ
 
 1. このリポジトリを GitHub に push
