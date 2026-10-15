@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- OGP 画像（1200x630）の元。design/ogp/README の手順で public/ogp.png に書き出す -->
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=block" rel="stylesheet" />
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body { width: 1200px; height: 630px; background: #94AB6F; padding: 36px; font-family: 'Yusei Magic', sans-serif; color: #242421; }
+  .paper { position: relative; width: 100%; height: 100%; background: #FBF6F1; border-radius: 28px; overflow: hidden;
+           display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .title { display: flex; align-items: flex-end; gap: 22px; margin-top: -150px; }
+  .piyo { width: 92px; margin-bottom: 10px; }
+  h1 { font-weight: normal; font-size: 132px; line-height: 1; letter-spacing: 0.02em; }
+  h1 span { font-size: 56px; letter-spacing: 0.04em; margin-left: 6px; }
+  .sub { margin-top: 26px; font-size: 34px; letter-spacing: 0.08em; color: #62605A; }
+  /* 動物は見切れないよう台紙の内側に全身を置く */
+  .lineup { position: absolute; left: 0; right: 0; bottom: 40px; display: flex; justify-content: center; align-items: flex-end; gap: 26px; }
+  .lineup img { width: 100px; }
+</style>
+</head>
+<body>
+  <div class="paper">
+    <div class="title">
+      <img class="piyo" src="../../public/animals/piyo.webp" alt="" />
+      <h1>min<span>のポートフォリオ</span></h1>
+    </div>
+    <p class="sub">つくったもの・はなしたこと・これまでのこと</p>
+    <div class="lineup">
+      <img src="../../public/animals/mogumogurisu.webp" alt="" />
+      <img src="../../public/animals/tora.webp" alt="" />
+      <img src="../../public/animals/kumasan.webp" alt="" />
+      <img src="../../public/animals/usagi.webp" alt="" />
+      <img src="../../public/animals/pig.webp" alt="" />
+      <img src="../../public/animals/mouse.webp" alt="" />
+      <img src="../../public/animals/meee.webp" alt="" />
+    </div>
+  </div>
+</body>
+</html>
