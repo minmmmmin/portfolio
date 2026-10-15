@@ -3,7 +3,8 @@ dist
 .wrangler
 .DS_Store
 *.log
-.env*
+# 公開してよい設定は .env に書く。秘密のものは .env.local へ
+.env*.local
 
 # Panda（npm install 時に prepare で再生成される）
 styled-system
