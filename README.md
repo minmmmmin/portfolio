@@ -155,3 +155,16 @@ npm run deploy
 - About のふきだし: [はなぞめフォント](https://www.asterism-m.com/font/hanazomefont/)（Asterism / さつやこ さん）
   - Web フォント利用 OK。ただしフォントデータの改変は禁止なので、サブセット化はせず TTF → WOFF2 の形式変換だけしています（`public/fonts/hanazome.woff2`、約3.6MB）。
   - 元の zip と readme は `design/fonts/hanazome/` にあります。
+
+## OGP（リンクをシェアしたときのカード）
+
+- 画像: `public/ogp.png`（1200×630）。元は `design/ogp/ogp.html`
+- タグ: `index.html`。URL は `.env` の `VITE_SITE_URL`（公開先が決まったら書きかえる）
+- SPA なので、どのページをシェアしても同じカードになります
+- 画像を作り直すとき:
+
+  ```sh
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
+    --window-size=1200,630 --virtual-time-budget=5000 \
+    --screenshot=public/ogp.png design/ogp/ogp.html
+  ```
