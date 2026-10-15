@@ -1,0 +1,10 @@
+@layer reset, base, tokens, recipes, utilities;
+
+/* はなぞめフォント（Asterism https://www.asterism-m.com/ ）。
+   規約で改変不可のため、サブセット化せず TTF → WOFF2 の形式変換だけしている。
+   使われているページ（About のふきだし）でだけ読み込まれる */
+@font-face {
+  font-family: 'Hanazome';
+  src: url('/fonts/hanazome.woff2') format('woff2');
+  font-display: swap;
+}
