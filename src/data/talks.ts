@@ -3,14 +3,6 @@ import type { Talk } from '../types/content'
 // 順番は気にしなくて OK（表示時に日付の新しい順に並べる）。
 export const talks: Talk[] = [
   {
-    slug: 'tamagui',
-    title: 'Tamaguiさわってみた',
-    event: 'LoGeek 内 LT',
-    date: '2026-10-02',
-    kind: 'lt',
-    slidesUrl: undefined, // TODO: 資料を上げたら URL と thumbnail
-  },
-  {
     slug: 'coffee-visualization-2',
     title: 'コーヒー豆の可視化で迷走しまくった（ている）話 〜続編〜',
     event: '第59回 情報科学若手の会 LT',

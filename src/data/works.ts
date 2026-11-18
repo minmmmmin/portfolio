@@ -279,37 +279,6 @@ export const works: Work[] = [
     },
   },
   {
-    slug: 'oryouri',
-    title: '今日のおりょうり',
-    description: 'その日のごはんを記録するアプリ。Tamagui をさわってみるためにつくった。',
-    category: 'personal',
-    tags: ['Tamagui', 'React Native', 'TypeScript'],
-    publishedAt: '2026-10',
-    links: {
-      github: 'https://github.com/minmmmmin/tamagui',
-    },
-    talks: ['tamagui'],
-    detail: {
-      sections: [
-        {
-          heading: 'どんなもの',
-          text: [
-            'その日のごはん（朝・昼・晩）を写真つきで記録するアプリです。',
-            'ずっと気になっていた Tamagui（React Native と Web で同じコードが書けるスタイリングライブラリ）をさわってみるのが目的です。',
-          ],
-        },
-        {
-          heading: 'さわってみて',
-          list: [
-            'レスポンシブ対応が楽',
-            'tamagui.config.ts で、ウェブもアプリも一気に変えられるところがたくさんある',
-            'React に近い書き方でアプリ開発をはじめられるので、Web をやってきた人でも入りやすい',
-          ],
-        },
-      ],
-    },
-  },
-  {
     slug: 'animal-dash',
     draft: true, // いまは載せない
     title: 'Animal Dash',
