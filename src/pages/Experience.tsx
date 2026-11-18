@@ -47,7 +47,7 @@ export function Experience() {
       </p>
 
       <div className={css({ position: 'relative', mt: { base: '10', md: '14' } })}>
-        <ol className={css({ borderLeft: '1.5px solid token(colors.ink)', ml: '1.5', maxWidth: '44rem' })}>
+        <ol className={css({ borderLeft: '1.5px solid token(colors.ink)', ml: '1.5', maxWidth: '56rem' })}>
           {items.map((e) => (
             <li key={e.period + e.title} className={css({ position: 'relative', pl: { base: '6', md: '8' }, pb: '10', _last: { pb: '2' } })}>
               <span

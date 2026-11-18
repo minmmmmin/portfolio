@@ -112,7 +112,7 @@ export function About() {
           gap: { base: '3', md: '4' },
           fontSize: { base: '1.1rem', md: '1.3rem' },
           lineHeight: '1.9',
-          maxWidth: '36em',
+          maxWidth: '46em',
         })}
       >
         {profile.about.map((line) => (
