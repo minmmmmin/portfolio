@@ -137,6 +137,7 @@ export const works: Work[] = [
     slug: 'chromalab',
     title: 'Chromalab',
     description: '色彩検定2級に2回落ちたのでつくった、配色を勉強できるカラーパレット作成アプリ。',
+    thumbnail: '/works/chromalab.webp',
     category: 'personal',
     context: '大学の授業',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase'],
