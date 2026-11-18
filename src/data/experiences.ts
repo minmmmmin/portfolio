@@ -10,6 +10,15 @@ export const experiences: Experience[] = [
     draft: true, // いまは載せない
   },
   {
+    period: '2026.10 – 11',
+    label: 'ハッカソン',
+    title: 'JPHACKS 2026',
+    url: 'https://jphacks.com/',
+    award: '審査員特別賞',
+    description:
+      'チームで「Setly」を開発しました。Award Day で審査員特別賞・YamaReco賞・dip賞・Innovator認定をいただきました。',
+  },
+  {
     period: '2026.09',
     label: 'ハッカソン',
     title: 'メルカリ AIエージェントハッカソン',

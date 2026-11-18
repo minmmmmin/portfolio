@@ -3,6 +3,47 @@ import type { Work } from '../types/content'
 // 表示は publishedAt の新しい順（日付が無いものは最後）。
 export const works: Work[] = [
   {
+    slug: 'setly',
+    title: 'Setly',
+    description: '掛け持ちも、要望も守る。ソルバーと AI でライブの出演順をつくるアプリ。',
+    thumbnail: '/works/setly.webp',
+    category: 'team',
+    context: 'JPHACKS 2026',
+    award: '審査員特別賞 ほか',
+    tags: ['React', 'TypeScript', 'Hono', 'Cloudflare Workers', 'Gemini API', 'Python', 'OR-Tools'],
+    publishedAt: '2026-10',
+    featured: true,
+    links: {
+      demo: 'https://setly.jphack-2026.workers.dev',
+      github: 'https://github.com/jphacks/tka_2604',
+      video: 'https://www.youtube.com/watch?v=1rlJomzzIUU',
+    },
+    detail: {
+      sections: [
+        {
+          heading: 'どんなもの',
+          text: [
+            '軽音サークルのライブの「出演順」をつくるアプリです。「同じ人の出番を空けたい」のような絶対に守るべき条件はソルバー（OR-Tools CP-SAT）が守り、「最後に向けて盛り上げたい」のような感覚的な要望は AI（Gemini）がくみ取ります。',
+            'AI の並べ替え案が条件を破っていても、ソルバーが条件を守ったまま一番近い並びに直します。',
+          ],
+        },
+        {
+          heading: 'できること',
+          list: [
+            '出演者フォームで、バンドとメンバー（掛け持ちも）を集める',
+            'AI チャットに話しかけるだけで条件を追加',
+            '「自動生成」で、必須の条件をすべて守った出演順をつくる',
+            '「盛り上がる順に」と頼むと AI が並べ替え案を出す。あとはドラッグで微調整',
+          ],
+        },
+        {
+          heading: '受賞',
+          list: ['審査員特別賞', 'YamaReco賞', 'dip賞', 'Innovator認定'],
+        },
+      ],
+    },
+  },
+  {
     slug: 'coffee-visualization',
     title: 'Coffee Visualization',
     description: '世界のコーヒー豆の味覚データを産地ごとに地図へ並べて、豆えらびを手伝う可視化システム。',
