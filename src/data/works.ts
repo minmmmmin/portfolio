@@ -17,6 +17,7 @@ export const works: Work[] = [
       demo: 'https://setly.jphack-2026.workers.dev',
       github: 'https://github.com/jphacks/tka_2604',
       video: 'https://www.youtube.com/watch?v=1rlJomzzIUU',
+      slides: 'https://canva.link/pa5dhgd0m2oms28', // TODO: 一旦 Canva。あとで差し替え
     },
     detail: {
       sections: [
